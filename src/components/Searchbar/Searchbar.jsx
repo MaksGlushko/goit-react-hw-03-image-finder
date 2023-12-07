@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import css from './searchbar.module.css';
 import {ImSearch} from 'react-icons/im';
 
-//========================================================================================
+
 export class Searchbar extends Component {
   
   static propTypes = {

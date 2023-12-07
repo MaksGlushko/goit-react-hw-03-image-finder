@@ -1,12 +1,12 @@
 import { Component } from "react";
 import PropTypes from "prop-types";
 
-import {fetchImagesFromAPI} from '../../api/api';
+import {fetchImagesFromAPI} from '../api/api';
 import { ImageGalleryItem } from "../ImageGalleryItem/ImageGalleryItem";
 import { Button } from "../Button/Button";
 import {Loader} from '../Loader/Loader';
 
-import css from './imageGallery.module.css';
+import css from './ImageGallery.module.css';
 import {nanoid} from 'nanoid';
 
 
